@@ -1,0 +1,18 @@
+@mixin footer{
+    .footer {
+      background-color: $footer-background;
+      width: 100vw;  
+      color: #ffffff;
+      bottom: 0;
+      position: absolute;      
+      >p{
+        text-align: center;
+        >a{
+          color: #0694fc;
+          text-decoration: none;
+          margin: 0.5rem;
+        }
+      }
+    }   
+      
+}

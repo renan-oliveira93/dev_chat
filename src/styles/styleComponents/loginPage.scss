@@ -1,0 +1,32 @@
+@mixin loginPage {
+    .formLogin{        
+        display: flex;
+        flex-wrap: wrap;
+        align-self: center;
+        align-items: center;
+        background-color: $primary-color;
+        max-height: fit-content;
+        padding: 5rem;
+        border-radius: 10px;
+        max-width: 30rem;
+        >p{
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 500;
+            margin: auto;
+            margin-bottom: 1rem;
+        }
+        >input{
+        height: fit-content;
+        margin: 1rem;
+        }
+        >button{
+            background-color: #00ffff;
+            border: none;
+            border-radius: 10px;
+            margin: auto;
+            width: 100px;
+            height: 20px;
+        }
+    }
+}

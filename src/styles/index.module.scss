@@ -1,0 +1,21 @@
+@import "styleComponents/header";
+@import "styleComponents/loginPage";
+@import "styleComponents/profile_card";
+@import "styleComponents/container";
+@import "styleComponents/footer";
+@import "styleComponents/variables";
+
+@include header();
+@include loginPage();
+@include profile_card();
+@include container();
+@include footer();
+
+#main{
+    display: flex;
+    justify-content: center;
+    background-image: url('/assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}

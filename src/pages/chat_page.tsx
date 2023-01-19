@@ -1,16 +1,16 @@
+import Profile_card from '@/components/profile_card'
 import Head from 'next/head'
-import FormLogin from '../components/FormLogin'
 import styles from '../styles/index.module.scss'
 
-export default function Home() {
+export default function chat_page() {
   return (
     <>
       <Head>
         <title>Dev Chat</title>
       </Head>
-      <main id={styles.main}>
-        <FormLogin />
-      </main>
+      <div className={styles.container}>
+        <Profile_card/>
+      </div>
     </>
   )
 }

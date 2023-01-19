@@ -1,0 +1,11 @@
+@mixin header {
+    .header{
+        color: #ffffff;
+        background-color: $header-background;
+        padding: 0.1rem;
+        text-align: center;
+        >h1{
+            margin: 1rem;
+        }
+    }
+}
